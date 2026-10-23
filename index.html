@@ -3,30 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto - La Bosch</title>
-    <!-- Ruta corregida para que GitHub Pages encuentre el CSS sin errores -->
- <link rel="stylesheet" href="/Negocio/styles.css">
+    <title>Adryss — Demo del sistema</title>
+    <meta name="robots" content="noindex">
+    <link rel="stylesheet" href="./styles.css">
+    <style>
+        /* Colores de cada botón, alineados con el negocio Adryss (cafetería) */
+        .btn-fidelizacion { border-color: #c5a059; }
+        .btn-fidelizacion:hover { background-color: rgba(197, 160, 89, 0.12); }
+        .btn-panel { border-color: #8a4b2a; }
+        .btn-panel:hover { background-color: rgba(138, 75, 42, 0.16); }
+        .btn-menu { border-color: #b08968; }
+        .btn-menu:hover { background-color: rgba(176, 137, 104, 0.14); }
+        .btn-zona { border-color: #d99a5b; }
+        .btn-zona:hover { background-color: rgba(217, 154, 91, 0.14); }
+        .demo-nota {
+            font-size: 13px;
+            color: #8a8a8a;
+            border: 1px dashed #333;
+            border-radius: 6px;
+            padding: 12px 14px;
+            margin: 0 0 26px;
+            text-align: left;
+            line-height: 1.55;
+        }
+        .demo-nota b { color: #c5a059; }
+        .seccion {
+            font-size: 11px;
+            letter-spacing: .16em;
+            text-transform: uppercase;
+            color: #7a7a7a;
+            margin: 26px 0 4px;
+            text-align: left;
+        }
+        .seccion:first-of-type { margin-top: 0; }
+        .pin {
+            display: inline-block;
+            font-family: 'Inter', sans-serif;
+            background: #242424;
+            border: 1px solid #3a3a3a;
+            border-radius: 4px;
+            padding: 2px 8px;
+            color: #e0e0e0;
+            letter-spacing: .08em;
+        }
+    </style>
 </head>
 <body>
 
     <main class="card">
-        <h2>¡Hola! 👋</h2>
-        <p>Elegí una opción para conectar con nosotros:</p>
+        <h2>Adryss ☕</h2>
+        <p>Demo del sistema de fidelización y menú.<br>Probá cada opción como la vería un cliente o el negocio.</p>
 
-        <!-- Google -->
-        <a href="https://search.google.com/local/writereview?placeid=ChIJKwK-dLy5vJURDs5I4phVjVs" target="_blank" rel="noopener noreferrer" class="btn btn-google">
-            ⭐ Valórranos en Google
+
+        <p class="seccion">Como lo ve el cliente</p>
+        <a href="https://agenciasweb.github.io/Fidelizacion/?b=adryss" target="_blank" rel="noopener noreferrer" class="btn btn-fidelizacion">
+            🎁 Mi tarjeta de fidelización
         </a>
 
-        <!-- WhatsApp -->
-        <a href="https://wa.me/5491136282553" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">
+        <p class="seccion">Como lo ve el negocio</p>
+        <a href="https://agenciasweb.github.io/Fidelizacion/?b=adryss&panel=1" target="_blank" rel="noopener noreferrer" class="btn btn-panel">
+            ⚙️ Panel del negocio
+        </a>
+
+        <p class="seccion">Contacto</p>
+        <a href="https://wa.me/549117174-8196" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">
             💬 Escribinos por WhatsApp
         </a>
-
-        <!-- Instagram -->
-        <a href="https://instagram.com/chao.bau99" target="_blank" rel="noopener noreferrer" class="btn btn-instagram">
-            📸 Seguinos en Instagram
+        <a href="https://search.google.com/local/writereview?placeid=ChIJJaBB2k65vJURyJi41gh20nw" target="_blank" rel="noopener noreferrer" class="btn btn-google">
+            ⭐ Dejanos tu reseña
         </a>
+
     </main>
 
 </body>
